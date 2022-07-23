@@ -25,13 +25,13 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>com.rockethelp</string>
+          <string>com.andrelino.rockethelp</string>
         </array>
       </dict>
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>com.googleusercontent.apps.793481532405-qo5co0bs1vd943b8hgpj83r3j314j5mc</string>
+          <string>com.googleusercontent.apps.817434316362-62ctmjkotog2vmv0mjo1sjhtbop1ktm3</string>
         </array>
       </dict>
     </array>

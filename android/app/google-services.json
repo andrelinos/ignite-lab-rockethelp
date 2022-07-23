@@ -1,40 +1,40 @@
 {
   "project_info": {
-    "project_number": "793481532405",
-    "project_id": "rockethelp-8945b",
-    "storage_bucket": "rockethelp-8945b.appspot.com"
+    "project_number": "817434316362",
+    "project_id": "rockethelp2k22",
+    "storage_bucket": "rockethelp2k22.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:793481532405:android:217641260edd2ac27206bc",
+        "mobilesdk_app_id": "1:817434316362:android:f8e73d25709c82fb1e60b3",
         "android_client_info": {
-          "package_name": "com.rockethelp"
+          "package_name": "com.andrelino.rockethelp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "793481532405-o1f8ltkd6abr00sdehopt5ivea0lkb3k.apps.googleusercontent.com",
+          "client_id": "817434316362-4tal6ihjijj24q4c6is88t651rm3spcu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAfV7SYiNuhJSnH77IB6-XJpU99XdOMjlI"
+          "current_key": "AIzaSyBFGTSiC5c-OFyCpnmt6B3mglXdrIEdwMw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "793481532405-o1f8ltkd6abr00sdehopt5ivea0lkb3k.apps.googleusercontent.com",
+              "client_id": "817434316362-4tal6ihjijj24q4c6is88t651rm3spcu.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "793481532405-qo5co0bs1vd943b8hgpj83r3j314j5mc.apps.googleusercontent.com",
+              "client_id": "817434316362-62ctmjkotog2vmv0mjo1sjhtbop1ktm3.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.rockethelp"
+                "bundle_id": "com.andrelino.rockethelp"
               }
             }
           ]
