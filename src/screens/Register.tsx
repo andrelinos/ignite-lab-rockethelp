@@ -7,13 +7,17 @@ import firestore from '@react-native-firebase/firestore';
 import { Header } from '../components/Header';
 import { Input } from '../components/Input';
 import { Button } from '../components/Button';
+import { useAuth } from '../context/authContext';
 
 export function Register() {
     const [isLoading, setIsLoading] = useState(false);
     const [patrimony, setPatrimony] = useState('');
     const [description, setDescription] = useState('');
+    const { user } = useAuth();
 
     const navigation = useNavigation();
+
+    console.log(user);
 
     function handleNewOrderRegister() {
         if (!patrimony || !description) {
@@ -23,6 +27,8 @@ export function Register() {
         setIsLoading(true);
 
         firestore()
+            .collection('users')
+            .doc(user.uid)
             .collection('orders')
             .add({
                 patrimony,
