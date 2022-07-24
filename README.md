@@ -33,12 +33,13 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0;
-  <a href="#sparkles-features">Funcionalidades</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requisitos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Inciando o projeto</a> &#xa0; | &#xa0;
-  <a href="#memo-license">Licença</a> &#xa0; | &#xa0;
+  <a href="#apple-sobre">Sobre</a> &#xa0; | &#xa0;
+  <a href="#-telas-das-aplica%C3%A7%C3%A3o">Telas</a> &#xa0; | &#xa0;
+  <a href="#-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-o-que-voc%C3%AA-precisa-para-clonar-este-projeto">Requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-iniciando-o-projeto-em-seu-computador">Inciando o projeto</a> &#xa0; | &#xa0;
+  <a href="#memo-licen%C3%A7a">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/andrelinos" target="_blank">Autor</a>
 </p>
 
@@ -176,6 +177,8 @@ expo prebuild
 ## :memo: Licença ##
 
 Este projeto está sob licença MIT. Para mais detalhes, veja o arquivo [LICENSE](LICENSE.md).
+
+## 👽 Autor ##
 
 Feito com :heart: por <a href="https://andrelino.dev" target="_blank">Andrelino Silva</a>
 
