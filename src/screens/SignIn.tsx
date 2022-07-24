@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Alert } from 'react-native';
 import auth from '@react-native-firebase/auth';
-import { VStack, Heading, Icon, useTheme, HStack, Link } from 'native-base';
+import { VStack, Heading, Icon, useTheme, HStack } from 'native-base';
 import { Envelope, Key } from 'phosphor-react-native';
 
 import Logo from '../assets/logo_primary.svg';

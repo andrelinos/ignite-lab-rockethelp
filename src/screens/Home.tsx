@@ -76,8 +76,6 @@ export function Home() {
                     };
                 });
 
-                console.log('Home: => ', data);
-
                 setOrders(data);
                 setIsLoading(false);
             });

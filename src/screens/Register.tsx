@@ -17,8 +17,6 @@ export function Register() {
 
     const navigation = useNavigation();
 
-    console.log(user);
-
     function handleNewOrderRegister() {
         if (!patrimony || !description) {
             return Alert.alert('Registrar', 'Preencha todos os campos.');

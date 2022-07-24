@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Alert } from 'react-native';
+import { VStack, Heading, Icon, useTheme, HStack } from 'native-base';
+import { Envelope } from 'phosphor-react-native';
 import auth from '@react-native-firebase/auth';
-import { VStack, Heading, Icon, useTheme, HStack, Link } from 'native-base';
-import { Envelope, Key } from 'phosphor-react-native';
 
 import Logo from '../assets/logo_primary.svg';
 
@@ -13,11 +13,37 @@ import { useNavigation } from '@react-navigation/native';
 export function Recovery() {
     const [isLoading, setIsLoading] = useState(false);
     const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [confirmPassword, setConfirmPassword] = useState('');
 
     const navigation = useNavigation();
     const { colors } = useTheme();
+
+    function handleRecoveryAccount() {
+        if (!email) {
+            return Alert.alert('Recuperar conta', 'Informe seu e-mail.');
+        }
+
+        setIsLoading(true);
+
+        auth()
+            .sendPasswordResetEmail(email)
+
+            .then(() => {
+                Alert.alert(
+                    'Recuperação de conta',
+                    'Solicitação realizada com sucesso.' +
+                        ' Verifique seu e-mail para continuar.',
+                );
+                navigation.navigate('signin');
+            })
+            .catch((error) => {
+                console.log(error);
+                setIsLoading(false);
+                return Alert.alert(
+                    'Recuperação de conta',
+                    'Não foi possível enviar pedido',
+                );
+            });
+    }
 
     function handleSignUp() {
         navigation.navigate('signup');
@@ -56,7 +82,7 @@ export function Recovery() {
             <Button
                 title="Recuperar conta"
                 w="full"
-                onPress={handleSignIn}
+                onPress={handleRecoveryAccount}
                 isLoading={isLoading}
             />
             <HStack pt={2} px={0} w="full" justifyContent="space-between">
@@ -64,13 +90,11 @@ export function Recovery() {
                     title="Criar nova conta"
                     variant="ghost"
                     onPress={handleSignUp}
-                    // isLoading={isLoading}
                 />
                 <Button
                     title="Acessar minha conta"
                     variant="ghost"
                     onPress={handleSignIn}
-                    // isLoading={isLoading}
                 />
             </HStack>
         </VStack>
