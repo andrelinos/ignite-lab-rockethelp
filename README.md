@@ -40,7 +40,7 @@
   <a href="#white_check_mark-o-que-voc%C3%AA-precisa-para-clonar-este-projeto">Requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-iniciando-o-projeto-em-seu-computador">Inciando o projeto</a> &#xa0; | &#xa0;
   <a href="#memo-licen%C3%A7a">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/andrelinos" target="_blank">Autor</a>
+  <a href="#-autor">Autor</a>
 </p>
 
 <br>
