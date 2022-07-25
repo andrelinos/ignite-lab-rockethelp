@@ -53,7 +53,7 @@ Este projeto foi desenvolvido durante as aulas de Ignite Lab 03 patrocinado pela
 
 # Descrição do projeto
 
-## 🔍 Telas das aplicação ##
+## 🔍 Telas da aplicação ##
 
   <img src="./.github/signup.png" alt="Criar conta" />  <img src="./.github/login.png" alt="Acessar conta" />  <img src="./.github/recovery.png" alt="Recuperar conta" />  <img src="./.github/sem-chamadados.png" alt="Home sem chamados" />  <img src="./.github/nova-solicitacao.png" alt="Abrir novo chamado" />  <img src="./.github/list-em-adamento.png" alt="Lista de chamados em aberto" />  <img src="./.github/em-andamento.png" alt="Detalhes chamados em aberto" />  <img src="./.github/chamados-finalizados.png" alt="Chamados finalizados" />
 
@@ -111,7 +111,7 @@ $ yarn android
 
 ## :monkey: Configurando o acesso ao banco de dados ##
 
-### Criando um banco de ados
+### Criando um banco de dados
 
 - Acesse o console do [firebase](https://console.firebase.google.com/)
 - Clique em **Adicionar projeto**
@@ -173,6 +173,19 @@ expo prebuild
 ```
 
 **_Nota_**: Este comando faz a configuração automática do projeto Android e iOS pra você não ter que adicionar as configurações de forma manual os arquivos fora do seu código de desenvolvimento.
+
+## Estrutura das informações no banco ##
+
+```json
+Object {
+    "description": "Descrição do problema",
+    "id": "jbfwxhXoJMgpKsNI7jj8",
+    "patrimony": "147456",
+    "status": "closed",
+    "when": "20/01/22 às 18:52:38",
+  },
+
+```
 
 ## :memo: Licença ##
 
