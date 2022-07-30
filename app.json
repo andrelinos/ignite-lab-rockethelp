@@ -1,17 +1,24 @@
 {
   "expo": {
-    "name": "rockethelp",
-    "slug": "rockethelp",
+    "name": "Rocket Help",
+    "slug": "andrelino-dev-rocket-help",
+    "icon": "./assets/app-icon.png",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#1B1B1F",
+      "resizeMode": "cover"
+    },
     "plugins": [
       "@react-native-firebase/app"
     ],
     "android": {
       "package": "com.andrelino.rockethelp",
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": "./google-services.json",
+      "softwareKeyboardLayoutMode": "pan"
     },
     "ios": {
       "bundleIdentifier": "com.andrelino.rockethelp",

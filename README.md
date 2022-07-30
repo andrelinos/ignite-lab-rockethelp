@@ -177,7 +177,7 @@ expo prebuild
 ## Estrutura das informações no banco ##
 
 ```json
-Object {
+ {
     "description": "Descrição do problema",
     "id": "jbfwxhXoJMgpKsNI7jj8",
     "patrimony": "147456",

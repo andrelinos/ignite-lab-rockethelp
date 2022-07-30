@@ -119,3 +119,6 @@ dist/
 
 google-services.json
 GoogleService-Info.plist
+
+eas.json
+*.jks
